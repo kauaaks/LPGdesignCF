@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prossperari Consultoria Financeira</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Prossperari</h1>
+            <p id="logo2">Consultoria Financeira</p>
+        </div>
+        <nav>
+            <ul id="nav-list">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Serviços</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+        <div class="hamburger" id="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </header>
+    
+    <section id="home" class="hero">
+        <h2>Transforme seu futuro financeiro com a Prossperari</h2>
+        <p>Consultoria especializada para alcançar seus objetivos</p>
+        <a href="#contact" class="btn">Fale Conosco</a>
+    </section>
+    
+    <section id="services">
+        <h2>O que oferecemos</h2>
+        <div class="service-grid">
+            <div class="service">
+                <h3>Planejamento Financeiro</h3>
+                <p>Estratégias para organizar e otimizar suas finanças pessoais e empresariais.</p>
+            </div>
+            <div class="service">
+                <h3>Consultoria de Investimentos</h3>
+                <p>Guiamos você para o melhor retorno de acordo com seu perfil de investidor.</p>
+            </div>
+            <div class="service">
+                <h3>Gestão de Dívidas</h3>
+                <p>Ajudamos a reorganizar suas finanças para que você fique no controle.</p>
+            </div>
+            <div class="service">
+                <h3>Preço Acessível</h3>
+                <p>Planos flexíveis, com excelente custo-benefício.</p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="about">
+        <h2>Quem Somos</h2>
+        <p>Somos uma equipe de especialistas apaixonados por ajudar nossos clientes a prosperar financeiramente. Nossa missão é proporcionar a melhor consultoria personalizada.</p>
+    </section>
+    
+    <section id="contact">
+        <h2>Entre em Contato</h2>
+        <form action="processar_formulario.php" method="POST">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="telefone">Telefone:</label>
+            <input type="tel" id="telefone" name="telefone" required>
+            <button type="submit" class="btn">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Prossperari Consultoria Financeira | Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
