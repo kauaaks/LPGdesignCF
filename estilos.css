@@ -117,8 +117,7 @@ header nav ul li a:hover {
 }
 
 .service-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    display: flex;
     gap: 30px;
 }
 
