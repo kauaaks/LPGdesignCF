@@ -1,5 +1,5 @@
-Prosperari Consultoria Financeira
-Este projeto tem como objetivo criar uma landing page moderna e funcional para a Prosperari Consultoria Financeira, focada em atrair novos clientes e fornecer informações sobre os serviços oferecidos.
+Prossperari Consultoria Financeira
+Este projeto tem como objetivo criar uma landing page moderna e funcional para a Prossperari Consultoria Financeira, focada em atrair novos clientes e fornecer informações sobre os serviços oferecidos.
 
 Funcionalidades
 Design Responsivo: A página se adapta a diferentes tamanhos de tela (desktop, tablet, celular).
